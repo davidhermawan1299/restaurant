@@ -1,0 +1,14 @@
+{
+  "name": "katalog",
+  "version": "1.0.0",
+  "description": "Tugas Javascript",
+  "main": "index.js",
+  "author": "Effenril Agung",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/style/app.css -o ./assets/dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
