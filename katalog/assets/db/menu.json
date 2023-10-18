@@ -1,0 +1,318 @@
+{
+    "Menu": [
+        {
+            "breakfast": [
+                [
+                    {
+                        "food": "EGG SANDWICH",
+                        "topping": "Choice of Housemade English Muffin or Biscuit (Choice of Toppings)",
+                        "price": 10.5,
+                        "other": "Bacon, Ham, or Rosewater Linguica Patty +$2\nCheddar or Goat Cheese +$1\nArugula, Tomato, Red Onion, Avocado",
+                        "create_at": 1697482127,
+                        "update_at": 1697482127,
+                        "id": "1"
+                    },
+                    {
+                        "food": "BREAKFAST BOWL",
+                        "topping": "Black Bean Cake, Greens, Tomato & Avocado Pico drizzled with Lime Cream",
+                        "price": 10,
+                        "other": "Add Egg $2.50",
+                        "create_at": 1697482113,
+                        "update_at": 1697482113,
+                        "id": "2"
+                    },
+                    {
+                        "food": "BREAKFAST JAMMIE",
+                        "topping": "Everything Bagel with Cream Cheese, Bacon, Tomato, Red Onion, Basil Pesto, Arugula",
+                        "price": 14,
+                        "other": "",
+                        "create_at": 1697482053,
+                        "update_at": 1697482053,
+                        "id": "3"
+                    },
+                    {
+                        "food": "AVOCADO TOAST",
+                        "topping": "Crushed Avocado topped with MV Sea Salt on Toasted Multigrain",
+                        "price": 10,
+                        "other": "Add an Egg $2.50",
+                        "create_at": 1697481993,
+                        "update_at": 1697481993,
+                        "id": "4"
+                    },
+                    {
+                        "food": "BREAKFAST BURRITO",
+                        "topping": "Scrambled eggs, cheddar, black bean cake, crushed avocado, pico de gallo, and lime cream in a flour tortilla.",
+                        "price": 33,
+                        "other": "",
+                        "create_at": 1697481933,
+                        "update_at": 1697481933,
+                        "id": "5"
+                    },
+                    {
+                        "food": "LOADED HASH BROWNS",
+                        "topping": "Hash brown potato squares piled up with bacon, scallions, and sour cream!",
+                        "price": 11,
+                        "other": "",
+                        "create_at": 1697481873,
+                        "update_at": 1697481873,
+                        "id": "6"
+                    },
+                    {
+                        "food": "BAGEL WITH CREAM CHEESE",
+                        "topping": "Plain, Everything, or Cinnamon Raisin",
+                        "price": 7,
+                        "other": "",
+                        "create_at": 1697481813,
+                        "update_at": 1697481813,
+                        "id": "7"
+                    },
+                    {
+                        "food": "YOGURT PARFAIT",
+                        "topping": "topping 8",
+                        "price": 6,
+                        "other": "With our House Granola",
+                        "create_at": 1697481753,
+                        "update_at": 1697481753,
+                        "id": "8"
+                    },
+                    {
+                        "food": "CHIA PARFAIT",
+                        "topping": "Housemade Chia pudding with our Founders Granola",
+                        "price": 7.5,
+                        "other": "",
+                        "create_at": 1697481693,
+                        "update_at": 1697481693,
+                        "id": "9"
+                    },
+                    {
+                        "food": "BREAKFAST PASTRY",
+                        "topping": "Muffins, Scones, Coffee Cake and other Breakfast Pastries made from Scratch Daily",
+                        "price": 8,
+                        "other": "",
+                        "create_at": 1697481633,
+                        "update_at": 1697481633,
+                        "id": "10"
+                    }
+                ]
+            ],
+            "lunch": [
+                {
+                    "food": "BUTTERMILK FRIED CHICKEN",
+                    "topping": "RW Quick Pickles, Greens, Aioli, on Toasted Ciabatta",
+                    "other": "Available as Sandwich or Bowl",
+                    "price": 16,
+                    "create_at": 1697486861,
+                    "update_at": 1697486861,
+                    "id": "1"
+                },
+                {
+                    "food": "VEGGIE BURGER",
+                    "topping": "Housemade Sweet Potato & Black Bean Burger, Pepper Jack Cheese, Crushed Avocado, Red Cabbage Slaw, Pickled Red Onions, and Chipotle Mayo on a Brioche Bun",
+                    "other": "Available as Sandwich or Bowl",
+                    "price": 16,
+                    "create_at": 1697486801,
+                    "update_at": 1697486801,
+                    "id": "2"
+                },
+                {
+                    "food": "BLT",
+                    "topping": "Bacon, Lettuce, Tomato, Avocado, & Mayo, served on Toasted Multigrain",
+                    "other": "Available as Wrap or Bowl",
+                    "price": 14,
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "3"
+                },
+                {
+                    "food": "SPICY TOFU PEANUT BOWL",
+                    "topping": "House-marinated Tofu, Vermicelli Rice Noodles, MV kimchi, carrots, red peppers, cucumbers, arugula, scallions, and sesame seeds, with our homemade spicy peanut sauce",
+                    "other": "Available as Wrap or Bowl",
+                    "price": 15,
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "4"
+                },
+                {
+                    "food": "CLASSIC PB&J",
+                    "topping": "",
+                    "other": "",
+                    "price": 9,
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "5"
+                },
+                {
+                    "food": "CLASSIC GRILLED CHEESE",
+                    "topping": "",
+                    "other": "",
+                    "price": 10,
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "6"
+                },
+                {
+                    "food": "DAILY SPECIAL",
+                    "topping": "Changes Regularly Call for Today's Offering",
+                    "other": "",
+                    "price": 10,
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "7"
+                },
+                {
+                    "food": "VEGGIE CHILI",
+                    "topping": "Topped with Red Onion & Cheddar",
+                    "other": "",
+                    "price": 6,
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "8"
+                },
+                {
+                    "food": "DAILY SPECIAL SOUP",
+                    "topping": "",
+                    "other": "",
+                    "price": 6,
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "9"
+                }
+            ],
+            "coffee": [
+                {
+                    "drink": "HOT COFFEE",
+                    "topping": "Freshly brewed Chilmark Coffee",
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "1"
+                },
+                {
+                    "drink": "ICED COFFEE",
+                    "topping": "Chilmark Coffee Company Cold Brew",
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "2"
+                },
+                {
+                    "drink": "ICED COFFEE",
+                    "topping": "Chilmark Coffee Company Cold Brew",
+                    "create_at": 1697486741,
+                    "update_at": 1697486741,
+                    "id": "2"
+                },
+                {
+                    "drink": "HOT TEA",
+                    "topping": "Lemon, Honey, or Milk",
+                    "create_at": 1697486861,
+                    "update_at": 1697486861,
+                    "id": "1"
+                },
+                {
+                    "drink": "ICED TEA",
+                    "topping": "Lemon or Sugar",
+                    "create_at": 1697486862,
+                    "update_at": 1697486862,
+                    "id": "2"
+                },
+                {
+                    "drink": "CAFE AU LAIT",
+                    "topping": "Steamed Milk",
+                    "create_at": 1697486863,
+                    "update_at": 1697486863,
+                    "id": "3"
+                },
+                {
+                    "drink": "ESPRESSO",
+                    "topping": "None",
+                    "create_at": 1697486864,
+                    "update_at": 1697486864,
+                    "id": "4"
+                },
+                {
+                    "drink": "AMERICANO",
+                    "topping": "Hot Water",
+                    "create_at": 1697486865,
+                    "update_at": 1697486865,
+                    "id": "5"
+                },
+                {
+                    "drink": "MACCHIATO",
+                    "topping": "Foamed Milk",
+                    "create_at": 1697486866,
+                    "update_at": 1697486866,
+                    "id": "6"
+                },
+                {
+                    "drink": "CORTADO",
+                    "topping": "Steamed Milk",
+                    "create_at": 1697486867,
+                    "update_at": 1697486867,
+                    "id": "7"
+                },
+                {
+                    "drink": "CAPPUCCINO",
+                    "topping": "Foamed Milk",
+                    "create_at": 1697486868,
+                    "update_at": 1697486868,
+                    "id": "8"
+                },
+                {
+                    "drink": "LATTE",
+                    "topping": "Steamed Milk",
+                    "create_at": 1697486869,
+                    "update_at": 1697486869,
+                    "id": "9"
+                },
+                {
+                    "drink": "VANILLA LATTE",
+                    "topping": "Vanilla Syrup, Steamed Milk",
+                    "create_at": 1697486870,
+                    "update_at": 1697486870,
+                    "id": "10"
+                },
+                {
+                    "drink": "MOCHA",
+                    "topping": "Chocolate Syrup, Steamed Milk, Whipped Cream",
+                    "create_at": 1697486871,
+                    "update_at": 1697486871,
+                    "id": "11"
+                },
+                {
+                    "drink": "CAFE CON LECHE",
+                    "topping": "Steamed Milk",
+                    "create_at": 1697486872,
+                    "update_at": 1697486872,
+                    "id": "12"
+                },
+                {
+                    "drink": "HOT CHOCOLATE",
+                    "topping": "Whipped Cream, Marshmallows",
+                    "create_at": 1697486873,
+                    "update_at": 1697486873,
+                    "id": "13"
+                },
+                {
+                    "drink": "CHAI LATTE",
+                    "topping": "Cinnamon, Cloves, Steamed Milk",
+                    "create_at": 1697486874,
+                    "update_at": 1697486874,
+                    "id": "14"
+                },
+                {
+                    "drink": "MATCHA LATTE",
+                    "topping": "Matcha Powder, Steamed Milk",
+                    "create_at": 1697486875,
+                    "update_at": 1697486875,
+                    "id": "15"
+                },
+                {
+                    "drink": "RED EYE",
+                    "topping": "Espresso Shot",
+                    "create_at": 1697486876,
+                    "update_at": 1697486876,
+                    "id": "16"
+                }
+            ]
+        }
+    ]
+}
