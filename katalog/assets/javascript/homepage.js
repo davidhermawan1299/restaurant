@@ -34,6 +34,7 @@ const coffee = document.querySelector('.coffee');
 
 const cardBreakfast = document.querySelector('.cardBreakfast');
 const cardLaunch = document.querySelector('.cardLaunch');
+const cardCoffee = document.querySelector('.cardCoffee');
 
 // breakfast
 breakfast.addEventListener('click', () => {
@@ -54,6 +55,9 @@ breakfast.addEventListener('click', () => {
 
     // card launch hide
     cardLaunch.style.display = 'none';
+
+    // card cardCoffee hide
+    cardCoffee.style.display = 'none';
 });
 
 // launch
@@ -75,6 +79,9 @@ launch.addEventListener('click', () => {
     
     // card Breakfast hide
     cardBreakfast.style.display = 'none';
+
+    // card cardCoffee hide
+    cardCoffee.style.display = 'none';
 });
 
 // coffee
@@ -91,10 +98,17 @@ coffee.addEventListener('click', () => {
     launch.classList.remove('border-b-2');
     launch.classList.remove('border-outerSpace');
 
+    // card coffee show
+    cardCoffee.style.display = 'grid'; 
+
+    // card Breakfast hide
+    cardBreakfast.style.display = 'none';
+
     // card launch hide
     cardLaunch.style.display = 'none';
 });
 
+// menu breakfast & launch
 function apiMenu(menuName, definisiName, cardName) {
     fetch('http://127.0.0.1:5500/katalog/assets/db/menu.json')
     .then(response => response.json())
@@ -137,3 +151,28 @@ function apiMenu(menuName, definisiName, cardName) {
 
 apiMenu('breakfast', breakfast, cardBreakfast);
 apiMenu('launch', launch, cardLaunch);
+
+// menu coffee
+fetch('http://127.0.0.1:5500/katalog/assets/db/menu.json')
+.then(response => response.json())
+.then((res) => {
+    res.Menu[0].coffee.forEach(coffee => {
+        const launchFoods = document.createElement('h3');
+        launchFoods.classList.add('launchFood');
+        launchFoods.textContent = coffee.drink;
+
+        const launchToppings = document.createElement('p');
+        launchToppings.classList.add('launchTopping');
+        launchToppings.textContent = coffee.topping;
+
+        const container = document.createElement('div');
+        container.appendChild(launchFoods);
+        container.appendChild(launchToppings);
+
+        containerTextPrices = document.createElement('div');
+        containerTextPrices.classList.add('containerTextPrice');
+        containerTextPrices.appendChild(container);
+
+        cardCoffee.append(containerTextPrices);
+    });
+})
