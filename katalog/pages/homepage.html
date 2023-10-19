@@ -66,67 +66,33 @@
         </div>
     </header>
 
-    <main class="w-full max-w-[1000px] mx-auto">
-        <!-- container our menu -->
-        <div class="w-full my-8 px-4 md:px-8 md:my-14">
-            <!-- name section -->
-            <h1 class="text-outerSpace text-2xl font-roboto font-bold text-center sm-414:text-4xl">OUR MENU</h1>
-            
-            <!-- description -->
-            <p class="text-astral text-xl font-bold text-center mt-2 sm-414:text-2xl sm-414:mt-4 md:text-3xl">
-                From baked goods made daily to sandwiches made by hand to thoughtfully prepared take away meals our goal is simple, satisfying food.
-            </p>
-
-            <!-- container breakfast, launch, coffee -->
-            <div class="w-full mt-8">
-                <!-- category -->
-                <ul class="flex flex-wrap justify-center gap-x-6 gap-y-4 text-outerSpace text-2xl font-semibold tracking-widest lg:cursor-pointer">
-                    <li class="breakfast border-b-2 border-outerSpace">BREAKFAST</li>
-                    <li class="launch">LAUNCH</li>
-                    <li class="coffee">COFFEE</li>
-                </ul>
-
-                <!-- breakfast -->
-                <div class="cardBreakfast grid grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2"></div>
-                <!-- launch -->
-                <div class="cardLaunch hidden grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2"></div>
-                <!-- launch -->
-                <div class="grid grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2">
-                    <div class="flex justify-between">
-                        <!-- text -->
-                        <div class="w-[80%]">
-                            <!-- launch -> food -->
-                            <h3 class="text-outerSpace text-lg font-roboto font-bold tracking-wide">BUTTERMILK FRIED CHICKEN</h3>
-                            <!-- launch -> topping -->
-                            <p class="text-astral text-lg font-bold my-2">RW Quick Pickles, Greens, Aioli, on Toasted Ciabatta</p>
-                            <!-- launch -> other -->
-                            <p class="text-[#9DB3BF] font-bold italic">Available as Sandwich or Bowl</p>
-                        </div>
-
-                        <!-- price -->
-                        <p class="w-max text-astral text-lg font-roboto font-bold mt-2">16$</p>
-                    </div>
-
-                    <div class="flex justify-between">
-                        <!-- text -->
-                        <div class="w-[80%]">
-                            <!-- launch -> food -->
-                            <h3 class="text-outerSpace text-lg font-roboto font-bold tracking-wide">BLT</h3>
-                            <!-- launch -> topping -->
-                            <p class="text-astral text-lg font-bold my-2">Bacon, Lettuce, Tomato, Avocado, & Mayo, served on Toasted Multigrain</p>
-                            <!-- launch -> other -->
-                            <p class="text-[#9DB3BF] font-bold italic">Available as Sandwich or Bowl</p>
-                        </div>
-
-                        <!-- price -->
-                        <p class="w-max text-astral text-lg font-roboto font-bold mt-2">14$</p>
-                    </div>
-                    <div class="bg-red-700 h-20"></div>
-                    <div class="bg-yellow-700 h-20"></div>
-                    <div class="bg-green-700 h-20"></div>
-                    <div class="bg-blue-700 h-20"></div>
-                    <div class="bg-red-700 h-20"></div>
-                    <div class="bg-yellow-700 h-20"></div>
+    <main class="w-full">
+        <div class="max-w-[1000px] mx-auto">
+            <!-- container our menu -->
+            <div class="w-full my-8 px-4 md:px-8 md:my-14">
+                <!-- name section -->
+                <h1 class="text-outerSpace text-2xl font-roboto font-bold text-center sm-414:text-4xl">OUR MENU</h1>
+                
+                <!-- description -->
+                <p class="text-astral text-xl font-bold text-center mt-2 sm-414:text-2xl sm-414:mt-4 md:text-3xl">
+                    From baked goods made daily to sandwiches made by hand to thoughtfully prepared take away meals our goal is simple, satisfying food.
+                </p>
+    
+                <!-- container breakfast, launch, coffee -->
+                <div class="w-full mt-8">
+                    <!-- category -->
+                    <ul class="flex flex-wrap justify-center gap-x-6 gap-y-4 text-outerSpace text-2xl font-semibold tracking-widest">
+                        <li class="breakfast border-b-2 border-outerSpace lg:cursor-pointer">BREAKFAST</li>
+                        <li class="launch lg:cursor-pointer">LAUNCH</li>
+                        <li class="coffee lg:cursor-pointer">COFFEE</li>
+                    </ul>
+    
+                    <!-- breakfast -->
+                    <div class="cardBreakfast grid grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2"></div>
+                    <!-- launch -->
+                    <div class="cardLaunch hidden grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2"></div>
+                    <!-- coffee -->
+                    <div class="cardCoffee hidden grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2"></div>
                 </div>
             </div>
         </div>
@@ -142,8 +108,42 @@
         <!-- gallery -->
     </main>
 
-    <footer>
-        
+    <footer class="bg-astral w-full">
+        <div class="w-full max-w-[1200px] mx-auto px-4 py-10 flex flex-col md:px-8 lg:flex-row lg:justify-between lg:gap-x-14">
+            <div class="lg:h-full flex items-center">
+                <img src="https://static1.squarespace.com/static/62263fbc76242e02ac3caf10/t/623cb9bff5ae30798a941b18/1648146879897/RW_Emblem_WT.png" alt="Logo" class="w-20 lg:w-40">
+            </div>
+
+            <h3 class="my-8 text-[#9DB3BF] lg:w-[500px] lg:my-0">Located in the heart of historic Edgartown, we offer handmade foods, quality spirits, specialty groceries, and thoughtful gifts. </h3>
+
+            <ul class="mb-8 lg:mb-0">
+                <li class="text-white font-bold text-xl tracking-widest mb-2">MARKET</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg">Market: 7a-3p</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">Kitchen: 7a-2p</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">Closed Sundays</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">508-627-1270</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">20 S. Summer St</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">(Across from Charlotte Inn)</li>
+            </ul>
+
+            <ul class="mb-8 lg:mb-0">
+                <li class="text-white font-bold text-xl tracking-widest mb-2">SPIRITS</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg">Open 11a-7p</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">774-310-1203</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">65 Main St</li>
+                <li class="text-[#9DB3BF] font-comorant font-bold text-lg -mt-1">(Next to movie theater)</li>
+            </ul>
+
+            <div class="">
+                <p class="text-[#9DB3BF] font-comorant font-bold text-lg">Share your Rosewater story with us</p>
+                <p class="text-white mt-2 font-roboto font-bold tracking-widest">#ROSEWATERMV</p>
+            
+                <div class="flex gap-x-4 mt-3">
+                    <a href="#"><i class="fab fa-instagram text-white text-2xl"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f text-white text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="../assets/javascript/homepage.js"></script>

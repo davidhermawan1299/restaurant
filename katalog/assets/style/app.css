@@ -50,7 +50,7 @@ body {
 
 /* launch price */
 .price {
-	@apply w-max text-astral text-lg font-roboto font-bold lg:mt-2
+	@apply w-max text-astral text-lg font-roboto font-bold
 }
 
 /* .bg__container_login_image {
