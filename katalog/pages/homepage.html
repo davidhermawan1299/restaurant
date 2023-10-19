@@ -109,33 +109,34 @@
                 </div>
             </div>
         </div>
-        <section>
+        <section class="mt-10">
             <div
                 class="w-full bg-background-bartender bg-cover flex flex-col items-center justify-center h-screen p-10">
                 <div class="backdrop-blur-sm bg-astral/30 flex flex-col justify-center items-center p-8">
                     <h2 class="text-4xl text-white font-semibold text-center">MAKE A RESERVATION</h2>
-                    <div class=" flex flex-col gap-5 mt-3">
-                        <select class="h-12 w-48">
-                            <option class="font-medium text-base ">2 People</option>
-                            <option class="font-medium text-base">3 People</option>
+                    <div class=" flex flex-col md:flex-row gap-5 mt-3">
+                        <select class="h-12 w-48 font-medium text-base" id="peopleSelect">
                         </select>
-                        <input type="date" class="h-12 w-48 font-medium text-base" />
-                        <select name="" id="" class="h-12 w-48">
-                            <option class="font-medium text-base" value="00.00">00.00</option>
-                            <option class="font-medium text-base " value="00.00">00.01 PM</option>
+                        <input type="date" id="dateInput" class="h-12 w-48 font-medium text-base" />
+                        <select class="h-12 w-48 font-medium text-base" id="timerSelect">
+
                         </select>
                     </div>
+                    <button class="py-4 px-8 mt-5 text-base font-medium bg-black text-white hover:bg-astral"
+                        onclick="reservation()">
+                        Make Reservation
+                    </button>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="bg-astral w-full">
+    <footer class="bg-astral w-full mt-10">
         <div
             class="w-full max-w-[1200px] mx-auto px-4 py-10 flex flex-col md:px-8 lg:flex-row lg:justify-between lg:gap-x-14">
             <div class="lg:h-full flex items-center">
                 <img src="https://static1.squarespace.com/static/62263fbc76242e02ac3caf10/t/623cb9bff5ae30798a941b18/1648146879897/RW_Emblem_WT.png"
-                    alt="Logo" class="w-20 lg:w-40">
+                    alt="Logo" class="w-20 lg:w-36">
             </div>
 
             <h3 class="my-8 text-[#9DB3BF] lg:w-[500px] lg:my-0">Located in the heart of historic Edgartown, we offer

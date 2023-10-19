@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 @import '../dist/output.css';
-/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Noto+Serif:wght@500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 h1,
 h2,
@@ -45,12 +44,12 @@ body {
 
 /* launch other */
 .launchOther {
-	@apply text-[#9DB3BF] font-bold italic
+	@apply text-[#9DB3BF] font-bold italic;
 }
 
 /* launch price */
 .price {
-	@apply w-max text-astral text-lg font-roboto font-bold
+	@apply w-max text-astral text-lg font-roboto font-bold;
 }
 
 /* .bg__container_login_image {
