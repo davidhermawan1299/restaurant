@@ -9,8 +9,145 @@
 </head>
 
 <body>
-    <h1 class="font-extrabold text-sky-700">Berhasil</h1>
-    <!-- Nggak jadi pakai Mookup.io Kena limit -->
+    <!-- background image -->
+    <div class="bg-slate-400 absolute -z-10 top-0 right-0 bottom-0 left-0">
+        <!-- image -->
+        <img src="https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/03cf7ab4-86c9-4dd8-9fa3-5f4ebaa12481/Rosewater-Front.jpg?format=1000w" alt="Bg Image" class="w-full h-full object-cover" class="absolute">
+        <!-- the color -->
+        <div class="bg-[#5b94b89f] top-0 right-0 bottom-0 left-0 absolute z-10"></div>
+    </div>
+
+    <header class="flex flex-col w-full h-screen">
+        <nav class="w-full flex justify-center items-center px-4 py-6 border-b border-[#ffffff44]">
+            <!-- logo & burger botton -->
+            <div class="w-max flex justify-center items-center relative md:w-full md:justify-between md:px-8">
+                <!-- image logo -->
+                <img src="https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/71a5faa2-2ba6-4ac5-9373-643fb76b0556/RW_Logo_White.png?format=1500w" alt="Logo" class="w-[60%] relative z-30 sm-380:w-[200px]">
+            
+                <!-- burger button -->
+                <div class="burgerButton w-max h-max absolute z-30 right-3 duration-200 sm-380:-right-10 md:hidden">
+                    <div class="relative">
+                        <span class="bg-white w-7 h-[1px] block"></span>
+                        <span class="bg-white h-7 w-[1px] block absolute -top-[13px] right-[14px]"></span>
+                    </div>
+                </div>
+                <!-- button Close List Mobile -->
+                <div class="buttonCloseListMobile hidden w-max h-max absolute z-30 right-3 sm-380:-right-10 md:hidden rotate-45 opacity-0">
+                    <div class="relative">
+                        <span class="bg-white w-7 h-[1px] block"></span>
+                        <span class="bg-white h-7 w-[1px] block absolute -top-[13px] right-[14px]"></span>
+                    </div>
+                </div>
+
+                <!-- nav list desktop -->
+                <div class="hidden items-center gap-x-4 md:flex">
+                    <a href="login.html" class="text-white font-semibold font-roboto uppercase">Login</a>
+                    <a href="signup.html" class="text-white font-semibold font-roboto uppercase">Register</a>
+                </div>
+            </div>
+
+            <!-- nav list mobile -->
+            <div class="navListMobile bg-astral flex-col justify-center items-center fixed top-0 right-0 bottom-0 left-0 z-20 px-4 py-6 hidden opacity-0 duration-300">
+                <div class="w-full h-full grow flex flex-col justify-center items-center gap-y-3">
+                    <a href="login.html" class="text-white text-xl font-semibold font-roboto uppercase">Login</a>
+                    <a href="signup.html" class="text-white text-xl font-semibold font-roboto uppercase">Register</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="w-full grow flex flex-col justify-center items-center gap-y-4 px-4 md:px-8 md:gap-y-10">
+            <!-- promotion -->
+            <h3 class="text-white text-lg font-semibold text-center sm-414:text-3xl md-938:w-[900px]">
+                Stop by our year-round Market located  in historic Edgartown and explore our extensive selection of scratch-made baked goods, breakfast & lunch favorites, a vast selection of hot and cold drinks, and dozens of  gifts for almost any occasion.
+            </h3>
+
+            <!-- img order -->
+            <img src="https://static1.squarespace.com/static/62263fbc76242e02ac3caf10/t/623b476952f7fb7fc6e02cc8/1648052073898/EWBK_White.png" alt="Order" class="w-[130px]">
+        </div>
+    </header>
+
+    <main class="w-full max-w-[1000px] mx-auto">
+        <!-- container our menu -->
+        <div class="w-full my-8 px-4 md:px-8 md:my-14">
+            <!-- name section -->
+            <h1 class="text-outerSpace text-2xl font-roboto font-bold text-center sm-414:text-4xl">OUR MENU</h1>
+            
+            <!-- description -->
+            <p class="text-astral text-xl font-bold text-center mt-2 sm-414:text-2xl sm-414:mt-4 md:text-3xl">
+                From baked goods made daily to sandwiches made by hand to thoughtfully prepared take away meals our goal is simple, satisfying food.
+            </p>
+
+            <!-- container breakfast, launch, coffee -->
+            <div class="w-full mt-8">
+                <!-- category -->
+                <ul class="flex flex-wrap justify-center gap-x-6 gap-y-4 text-outerSpace text-2xl font-semibold tracking-widest lg:cursor-pointer">
+                    <li class="breakfast border-b-2 border-outerSpace">BREAKFAST</li>
+                    <li class="launch">LAUNCH</li>
+                    <li class="coffee">COFFEE</li>
+                </ul>
+
+                <!-- breakfast -->
+                <div class="cardBreakfast grid grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2"></div>
+                <!-- launch -->
+                <div class="cardLaunch hidden grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2"></div>
+                <!-- launch -->
+                <div class="grid grid-cols-1 gap-x-4 gap-y-8 mt-8 lg:mt-14 lg:gap-x-16 lg:grid-cols-2">
+                    <div class="flex justify-between">
+                        <!-- text -->
+                        <div class="w-[80%]">
+                            <!-- launch -> food -->
+                            <h3 class="text-outerSpace text-lg font-roboto font-bold tracking-wide">BUTTERMILK FRIED CHICKEN</h3>
+                            <!-- launch -> topping -->
+                            <p class="text-astral text-lg font-bold my-2">RW Quick Pickles, Greens, Aioli, on Toasted Ciabatta</p>
+                            <!-- launch -> other -->
+                            <p class="text-[#9DB3BF] font-bold italic">Available as Sandwich or Bowl</p>
+                        </div>
+
+                        <!-- price -->
+                        <p class="w-max text-astral text-lg font-roboto font-bold mt-2">16$</p>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <!-- text -->
+                        <div class="w-[80%]">
+                            <!-- launch -> food -->
+                            <h3 class="text-outerSpace text-lg font-roboto font-bold tracking-wide">BLT</h3>
+                            <!-- launch -> topping -->
+                            <p class="text-astral text-lg font-bold my-2">Bacon, Lettuce, Tomato, Avocado, & Mayo, served on Toasted Multigrain</p>
+                            <!-- launch -> other -->
+                            <p class="text-[#9DB3BF] font-bold italic">Available as Sandwich or Bowl</p>
+                        </div>
+
+                        <!-- price -->
+                        <p class="w-max text-astral text-lg font-roboto font-bold mt-2">14$</p>
+                    </div>
+                    <div class="bg-red-700 h-20"></div>
+                    <div class="bg-yellow-700 h-20"></div>
+                    <div class="bg-green-700 h-20"></div>
+                    <div class="bg-blue-700 h-20"></div>
+                    <div class="bg-red-700 h-20"></div>
+                    <div class="bg-yellow-700 h-20"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- foods dropdown -->
+
+        <!-- card riview -->
+
+        <!-- quote -->
+
+        <!-- orders -->
+
+        <!-- gallery -->
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="../assets/javascript/homepage.js"></script>
+    <script src="https://kit.fontawesome.com/209072fbdb.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
