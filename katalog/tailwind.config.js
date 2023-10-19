@@ -19,7 +19,7 @@ module.exports = {
 			colors: {
 				astral: '#3B677F',
 				'astral-100': '#3b677f',
-				outerSpace: ' rgb(38, 60, 73)'
+				outerSpace: ' rgb(38, 60, 73)',
 			},
 			fontFamily: {
 				roboto: ['Roboto', 'sans-serif'],
@@ -31,6 +31,10 @@ module.exports = {
 					"url('https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/03cf7ab4-86c9-4dd8-9fa3-5f4ebaa12481/Rosewater-Front.jpg')",
 				'background-sigup':
 					"url('https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/f8917fbe-5679-44c8-b4fb-56a2d49f810e/Elle-Max-9930.jpg')",
+				'background-reservation': "url('./Pictures/rainbow.jpg')",
+				'background-bartender': "url('./Pictures/bartender.jpg')",
+				//  'background-reservation':
+				//  	"url('https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/1655219631527-RNYFEBMBA825QC17022F/Climate+Cafe.jpg')",
 			},
 		},
 	},
