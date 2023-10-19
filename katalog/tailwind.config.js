@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./pages/**/*.{html,js}'],
+	content: ['./pages/**/*.{html,js}', './assets/**/*.{js}'],
 	theme: {
 		extend: {
 			screens: {
+				'sm-380': '380px',
+				'sm-414': '414px',
 				sm: '640px',
 				// => @media (min-width: 640px) { ... }
 
 				md: '768px',
+				'md-938': '938px',
 				// => @media (min-width: 768px) { ... }
 
 				lg: '1024px',
@@ -16,7 +19,7 @@ module.exports = {
 			colors: {
 				astral: '#3B677F',
 				'astral-100': '#3b677f',
-				outerSpace: ' rgb(38, 60, 73)',
+				outerSpace: ' rgb(38, 60, 73)'
 			},
 			fontFamily: {
 				roboto: ['Roboto', 'sans-serif'],

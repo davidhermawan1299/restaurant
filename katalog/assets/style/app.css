@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,6 +21,36 @@ p {
 
 body {
 	background-color: '#263c49';
+}
+
+/* launch */
+.containerTextPrice {
+	@apply flex justify-between;
+}
+
+/* launch width */
+.widthCard {
+	@apply w-[80%];
+}
+
+/* launch food */
+.launchFood {
+	@apply text-outerSpace text-lg font-roboto font-bold tracking-wide;
+}
+
+/* launch topping */
+.launchTopping {
+	@apply text-astral text-lg font-bold my-2;
+}
+
+/* launch other */
+.launchOther {
+	@apply text-[#9DB3BF] font-bold italic
+}
+
+/* launch price */
+.price {
+	@apply w-max text-astral text-lg font-roboto font-bold lg:mt-2
 }
 
 /* .bg__container_login_image {
