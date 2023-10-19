@@ -1,0 +1,35 @@
+<div class="flex justify-between">
+                        <!-- text -->
+                        <div class="w-[80%]">
+                            <!-- launch -> food -->
+                            <h3 class="text-outerSpace text-lg font-roboto font-bold tracking-wide">BUTTERMILK FRIED CHICKEN</h3>
+                            <!-- launch -> topping -->
+                            <p class="text-astral text-lg font-bold my-2">RW Quick Pickles, Greens, Aioli, on Toasted Ciabatta</p>
+                            <!-- launch -> other -->
+                            <p class="text-[#9DB3BF] font-bold italic">Available as Sandwich or Bowl</p>
+                        </div>
+
+                        <!-- price -->
+                        <p class="w-max text-astral text-lg font-roboto font-bold mt-2">16$</p>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <!-- text -->
+                        <div class="w-[80%]">
+                            <!-- launch -> food -->
+                            <h3 class="text-outerSpace text-lg font-roboto font-bold tracking-wide">BLT</h3>
+                            <!-- launch -> topping -->
+                            <p class="text-astral text-lg font-bold my-2">Bacon, Lettuce, Tomato, Avocado, & Mayo, served on Toasted Multigrain</p>
+                            <!-- launch -> other -->
+                            <p class="text-[#9DB3BF] font-bold italic">Available as Sandwich or Bowl</p>
+                        </div>
+
+                        <!-- price -->
+                        <p class="w-max text-astral text-lg font-roboto font-bold mt-2">14$</p>
+                    </div>
+                    <div class="bg-red-700 h-20"></div>
+                    <div class="bg-yellow-700 h-20"></div>
+                    <div class="bg-green-700 h-20"></div>
+                    <div class="bg-blue-700 h-20"></div>
+                    <div class="bg-red-700 h-20"></div>
+                    <div class="bg-yellow-700 h-20"></div>

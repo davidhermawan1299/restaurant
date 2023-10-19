@@ -1,0 +1,24 @@
+{
+    "image": [
+        {
+            "id": 1,
+            "url": "https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/ec255cca-9530-42b6-a236-84c099093d93/Coffee+Photo.jpg"
+        },
+        {
+            "id": 2,
+            "url": "https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/a2515df0-ecef-4b85-84a0-12987c884d17/Rosewater-72+%281%29.jpg"
+        },
+        {
+            "id": 3,
+            "url": "https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/d8cc5687-204a-4f39-ac62-8c74e373cb9d/Rosewater-49.jpg"
+        },
+        {
+            "id": 4,
+            "url": "https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/0512b2b9-d540-411b-bd15-9f8d6e02d9b2/Rosewater-24+%281%29.jpg"
+        },
+        {
+            "id": 5,
+            "url": "https://images.squarespace-cdn.com/content/v1/62263fbc76242e02ac3caf10/111cee1a-cc37-418a-9e37-ebc8ab07efe7/Rosewater-33.jpg"
+        }
+    ]
+}
